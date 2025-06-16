@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fake Chat Creator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <div class="form">
+        <input type="text" id="messageInput" placeholder="Scrivi il messaggio">
+        <select id="position">
+          <option value="left">Sinistra</option>
+          <option value="right">Destra</option>
+        </select>
+        <button onclick="addMessage()">Aggiungi</button>
+      </div>
+  
+      <div id="preview" class="chat-preview"></div>
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+  
+</html>
