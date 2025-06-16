@@ -1,26 +1,178 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Fake Chat Creator</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="container">
-      <div class="form">
-        <input type="text" id="messageInput" placeholder="Scrivi il messaggio">
-        <select id="position">
-          <option value="left">Sinistra</option>
-          <option value="right">Destra</option>
-        </select>
-        <button onclick="addMessage()">Aggiungi</button>
-      </div>
-  
-      <div id="preview" class="chat-preview"></div>
+  <div class="m-2 p-4 rounded-xl shadow-md bg-white dark:bg-gray-900 snipcss-SPE1d">
+    <main class="">
+        <div class="space-y-4 w-full">
+            <div class="w-full flex flex-wrap items-center gap-2">
+                <h1 class="text-2xl sm:text-5xl font-bold">Create Fake Text Story Video</h1>
+            </div>
+            <div class="w-full grid grid-cols-1 sm:grid-cols-5 gap-8">
+                <div class="col-span-1 sm:col-span-3 space-y-2">
+                    <div class="space-y-2 min-h-[550px] sm:min-h-[750px]">
+                        <div class="sticky top-12 sm:static rounded-xl px-2 z-40 backdrop-blur-md w-fit">
+                            <p class="font-bold text-xl">Chat 1 Settings</p>
+                        </div>
+                        <div dir="ltr" data-orientation="horizontal" class="w-full">
+                            <div role="tablist" aria-orientation="horizontal" class="items-center justify-center bg-muted p-1 text-muted-foreground grid h-fit grid-cols-5 rounded-xl style-KUsm5" tabindex="0" data-orientation="horizontal" id="style-KUsm5"><button type="button" role="tab" aria-selected="true" aria-controls="radix-:r31:-content-text" data-state="active" id="radix-:r31:-trigger-text" class="inline-flex items-center justify-center whitespace-nowrap px-3 py-1.5 font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm rounded-xl text-[12px] sm:text-sm" tabindex="0" data-orientation="horizontal" data-radix-collection-item="">Text</button><button type="button" role="tab" aria-selected="false" aria-controls="radix-:r31:-content-chat" data-state="inactive" id="radix-:r31:-trigger-chat" class="inline-flex items-center justify-center whitespace-nowrap px-3 py-1.5 font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm rounded-xl text-[12px] sm:text-sm" tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">Chat</button><button type="button" role="tab" aria-selected="false" aria-controls="radix-:r31:-content-background" data-state="inactive" id="radix-:r31:-trigger-background" class="inline-flex items-center justify-center whitespace-nowrap px-3 py-1.5 font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm rounded-xl text-[12px] sm:text-sm" tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">BG</button><button type="button" role="tab" aria-selected="false" aria-controls="radix-:r31:-content-voice" data-state="inactive" id="radix-:r31:-trigger-voice" class="inline-flex items-center justify-center whitespace-nowrap px-3 py-1.5 font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm rounded-xl text-[12px] sm:text-sm" tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">Voices</button><button type="button" role="tab" aria-selected="false" aria-controls="radix-:r31:-content-music" data-state="inactive" id="radix-:r31:-trigger-music" class="inline-flex items-center justify-center whitespace-nowrap px-3 py-1.5 font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm rounded-xl text-[12px] sm:text-sm" tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">Music</button></div>
+                            <div data-state="active" data-orientation="horizontal" role="tabpanel" aria-labelledby="radix-:r31:-trigger-text" id="radix-:r31:-content-text" tabindex="0" class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2" style="">
+                                <div class=" w-full  space-y-2 ">
+                                    <div class="flex flex-row justify-start items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bell w-4 h-4 ">
+                                            <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"></path>
+                                            <path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"></path>
+                                        </svg>
+                                        <p class="text-sm ">Notification Sound on all Messages</p><button type="button" role="checkbox" aria-checked="true" data-state="checked" value="on" class="peer shrink-0 border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground h-6 w-6 rounded-lg"><span data-state="checked" class="flex items-center justify-center text-current style-FME7d" id="style-FME7d"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg></span></button>
+                                    </div>
+                                    <div class="space-y-4">
+                                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4"><button class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full rounded-xl text-sm shadow-md">
+                                                <div class="flex flex-row gap-2 items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle-plus ">
+                                                        <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path>
+                                                        <path d="M8 12h8"></path>
+                                                        <path d="M12 8v8"></path>
+                                                    </svg>
+                                                    <p class="text-sm  text-center"> Add First Message</p>
+                                                </div>
+                                            </button><button class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full rounded-xl text-sm sm:text-lg shadow-md" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r3o:" data-state="closed">
+                                                <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle-more w-6 h-6">
+                                                        <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path>
+                                                        <path d="M8 12h.01"></path>
+                                                        <path d="M12 12h.01"></path>
+                                                        <path d="M16 12h.01"></path>
+                                                    </svg>
+                                                    <p>Generate Script</p>
+                                                </div>
+                                            </button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-state="inactive" data-orientation="horizontal" role="tabpanel" aria-labelledby="radix-:r31:-trigger-chat" id="radix-:r31:-content-chat" tabindex="0" class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2" hidden=""></div>
+                            <div data-state="inactive" data-orientation="horizontal" role="tabpanel" aria-labelledby="radix-:r31:-trigger-background" hidden="" id="radix-:r31:-content-background" tabindex="0" class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"></div>
+                            <div data-state="inactive" data-orientation="horizontal" role="tabpanel" aria-labelledby="radix-:r31:-trigger-voice" hidden="" id="radix-:r31:-content-voice" tabindex="0" class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"></div>
+                            <div data-state="inactive" data-orientation="horizontal" role="tabpanel" aria-labelledby="radix-:r31:-trigger-music" hidden="" id="radix-:r31:-content-music" tabindex="0" class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1 sm:col-span-2 gap-8 sm:gap-2 flex flex-col items-center">
+                    <div class="space-y-2" id="preview-chat-1">
+                        <p class="font-bold text-xl">Chat 1 Video Preview </p>
+                        <div class="space-y-2">
+                            <div class="h-[450px] lg:h-[714px] max-w-[250px] lg:max-w-[300px] xl:max-w-[380px]"><video src="/images/background-videos/preview/video/minecraft.mp4" class="rounded-xl object-cover h-full" autoplay="" loop="" playsinline="" webkit-playsinline="true" controlslist="nodownload nofullscreen noremoteplayback" disablepictureinpicture=""></video>
+                                <div class="relative top-[-300px] sm:top-[-370px] lg:top-[-390px] xl:top-[-480px] h-[70px] w-full flex flex-col justify-center items-center scale-[0.6] lg:scale-[0.7] xl:scale-[0.9]">
+                                    <div id="chat-preview" class="mt-20">
+                                        <div id="style-rle7H" class="style-rle7H">
+                                            <div class="mt-0">
+                                                <div class="FTChatIphone_chatHeader___p0XG">
+                                                    <div class="FTChatIphone_backButton__c4OkY"><img src="https://www.aicut.pro/images/fake-text/iphone/iphone_arrow.png" alt="fake Iphone Chat Back Button">
+                                                        <div class="FTChatIphone_unreadMessagesCount__wvHxD"></div>
+                                                    </div>
+                                                    <div class="FTChatIphone_contactInfo__NxbRA">
+                                                        <div class="FTChatIphone_contactAvatar__ml8PV">U</div>
+                                                        <div class="FTChatIphone_contactName__XlGIU">Unknown<img src="https://www.aicut.pro/images/fake-text/iphone/mini_arrow.png" alt="fake iphone Chat Conversation Arrow" class="FTChatIphone_contactNameImage___DHGY"></div>
+                                                    </div>
+                                                    <div class="FTChatIphone_videoButton__ed5M5"><img src="https://www.aicut.pro/images/fake-text/iphone/camera_icon.png" alt="fake iphone Chat Conversation Video Call"></div>
+                                                </div>
+                                                <div class="FTChatIphone_chatMessage__XunWV"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-x-2"><button class="inline-flex items-center justify-center whitespace-nowrap rounded-xl text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2">
+                            <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-messages-square w-4 h-4">
+                                    <path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2z"></path>
+                                    <path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1"></path>
+                                </svg>
+                                <p> Add Chat 2</p>
+                            </div>
+                        </button></div>
+                </div>
+                <div class="col-span-1 sm:col-span-6 p-2">
+                    <div class="flex flex-col items-center justify-center gap-2">
+                        <div class="space-y-1">
+                            <div class="relative inline-block w-full sm:w-fit" tabindex="0">
+                                <div class="relative rounded-xl p-[2px] bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 animate-gradient-move"><button class="relative z-10 h-full px-4 py-2 rounded-lg text-white font-extrabold bg-gray-800 dark:bg-gray-900 transition-all duration-300 hover-glow-effect w-full sm:w-fit">
+                                        <div class="flex items-center justify-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4">
+                                                <path d="M5 12h14"></path>
+                                                <path d="M12 5v14"></path>
+                                            </svg>
+                                            <p>Create Fake Text Story Video</p>
+                                        </div>
+                                    </button></div>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <p class="text-sm text-gray-700 dark:text-gray-300">Chars: 0 / 6000</p>
+                                <p class="text-sm text-gray-700 dark:text-gray-300">~00:00 min</p>
+                            </div>
+                        </div>
+                        <div class="w-full sm:w-fit space-y-2 border-[1px] border-blue-100 p-4 rounded-xl">
+                            <div class="">
+                                <p class="text-sm">Edit Video after Creation</p>
+                                <div class="ml-2 flex items-center gap-2"><button type="button" role="switch" aria-checked="false" data-state="unchecked" value="on" class="peer inline-flex h-6 w-11 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=unchecked]:bg-blue-200 dark:data-[state=unchecked]:bg-blue-400"><span data-state="unchecked" class="pointer-events-none block h-5 w-5 rounded-full bg-background shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-5 data-[state=unchecked]:translate-x-0"></span></button><button class="inline-flex items-center justify-center whitespace-nowrap rounded-xl text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2" data-state="closed">
+                                        <div class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-info w-5 h-5">
+                                                <circle cx="12" cy="12" r="10"></circle>
+                                                <path d="M12 16v-4"></path>
+                                                <path d="M12 8h.01"></path>
+                                            </svg>
+                                            <p class="text-sm">Info</p>
+                                        </div>
+                                    </button></div>
+                            </div>
+                            <div class="grid grid-cols-2 gap-2">
+                                <div class="col-span-1">
+                                    <p class="text-sm text-gray-800 dark:text-gray-200">Video Style </p>
+                                </div>
+                                <div class="col-span-1">
+                                    <p class="text-sm text-gray-800 dark:text-gray-200">BG Video </p>
+                                    <p class="font-semibold ml-2 text-sm text-gray-800 dark:text-gray-200">Minecraft (Random)</p>
+                                </div>
+                                <div class="col-span-1">
+                                    <p class="text-sm text-gray-800 dark:text-gray-200">Music </p>
+                                    <p class="font-semibold ml-2 text-sm text-gray-800 dark:text-gray-200">none</p>
+                                </div>
+                                <div class="col-span-2 mt-2">
+                                    <p class="text-sm text-gray-800 dark:text-gray-200">Chat 1</p>
+                                </div>
+                                <div class="col-span-1">
+                                    <p class="text-sm text-gray-800 dark:text-gray-200">Template </p>
+                                    <p class="font-semibold ml-2 text-sm text-gray-800 dark:text-gray-200">IMESSAGE</p>
+                                </div>
+                                <div class="col-span-1">
+                                    <p class="text-sm text-gray-800 dark:text-gray-200">Language </p>
+                                    <p class="font-semibold ml-2 text-sm text-gray-800 dark:text-gray-200">English</p>
+                                </div>
+                                <div class="col-span-1 max-w-[140px]">
+                                    <p class="text-sm text-gray-800 dark:text-gray-200">Voice Left</p>
+                                    <p class="break-all font-semibold ml-2 text-sm text-gray-800 dark:text-gray-200">echo-normal</p>
+                                </div>
+                                <div class="col-span-1 max-w-[140px]">
+                                    <p class="text-sm text-gray-800 dark:text-gray-200">Voice Right</p>
+                                    <p class="break-all font-semibold ml-2 text-sm text-gray-800 dark:text-gray-200">echo-normal</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section aria-label="Notifications alt+T" tabindex="-1" aria-live="polite" aria-relevant="additions text" aria-atomic="false" id="h5o-2"></section>
+</div>
     </div>
-  
-    <script src="script.js"></script>
-  </body>
-  
+
+    <div id="preview" class="chat-preview"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="script.js"></script>
+</body>
 </html>
