@@ -5,23 +5,6 @@ body {
     justify-content: center;
     padding: 40px;
   }
-  
-  .chat-container {
-    width: 300px;
-    background: white;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-  }
-  
-  #chat {
-    height: 400px;
-    overflow-y: auto;
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
   .message {
     background-color: #e5e5ea;
     padding: 10px;
@@ -31,10 +14,6 @@ body {
     max-width: 80%;
   }
   
-  .controls {
-    display: flex;
-    gap: 10px;
-  }
   .container {
     max-width: 500px;
     margin: 40px auto;
@@ -65,15 +44,12 @@ body {
     display: inline-block;
     word-break: break-word;
   }
-  
   .left {
     background-color: #3a3a3c;
     align-self: flex-start;
   }
-  
   .right {
     background-color: #0a84ff;
     align-self: flex-end;
     margin-left: auto;
   }
-  
